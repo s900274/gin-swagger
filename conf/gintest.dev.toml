@@ -1,0 +1,6 @@
+# Global Setting
+logfile                 = 'conf/log.json'     # Log存放位置
+httpserverip            = '0.0.0.0'
+httpserverport          = 3500
+
+sqlite_file             = 'db/building'

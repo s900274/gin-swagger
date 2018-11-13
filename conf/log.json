@@ -1,0 +1,21 @@
+{
+  "LogLevel" : "trace",
+
+  "FileWriter" : {
+    "On": true,
+
+    "LogPath" : "./log/gintest.log.info",
+    "RotateLogPath" : "./log/gintest.log.info.%Y%M%D",
+
+    "WfLogPath" : "./log/gintest.log.wf",
+    "RotateWfLogPath" : "./log/gintest.log.wf.%Y%M%D",
+
+    "StLogPath" : "./log/gintest.log.st",
+    "RotateExLogPath" : "./log/gintest.log.st.%Y%M%D"
+  },
+
+  "ConsoleWriter" : {
+    "On" : true,
+    "Color" : true
+  }
+}
